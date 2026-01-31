@@ -60,6 +60,10 @@ cars = ['Ford', 'Mitsubishi', 'BMW', 'VW']
 cars.sort(key=myFunc)
 print(cars)
 
+# same logic as above but in shorter code
+cars.sort(key=lambda x: len(x))
+print(cars)
+
 # A function that returns the 'year' value:
 def myFunc(e):
     return e['year']
@@ -73,9 +77,13 @@ cars = [
 cars.sort(key=myFunc)
 print(cars)
 
+# A function that returns the 'year' value:
+cars.sort(key=lambda e: e['year'])
+
 # A function that returns the length of the value:
 def myFunc(e):
     return len(e)
 cars = ['Ford', 'Mitsubishi', 'BMW', 'VW']
 cars.sort(reverse=True, key=myFunc)
+
 print(cars)
