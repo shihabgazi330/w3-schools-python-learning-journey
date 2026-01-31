@@ -9,8 +9,8 @@ nums.sort()
 print(nums)
 
 # to sort items in reverse
-print(fruits.sort(reverse=True)) # this will sort in reverse but won't give us the actual result
-print(fruits) # this will return us the actual result
+fruits.sort(reverse=True)  # this will sort in reverse (in place)
+print(fruits)  # this will print the sorted list
 nums.sort(reverse=True)
 print(nums)
 
