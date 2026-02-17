@@ -1,3 +1,4 @@
+# بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ
 # w3-schools-python-learning-journey
 My Python practice codes while learning from W3Schools
 
